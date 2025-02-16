@@ -11,12 +11,12 @@ export default async function List() {
     return (
       <div className="list-bg">
         <div className="list-item">
-          <h4>글제목</h4>
-          <p>1월 1일</p>
+          <h4>{result[1].title}</h4>
+          <p>{result[1].content}</p>
         </div>
         <div className="list-item">
-          <h4>글제목</h4>
-          <p>1월 1일</p>
+        <h4>{result[1].title}</h4>
+        <p>{result[1].content}</p>
         </div>
         <div className="list-item">
           <h4>글제목</h4>
